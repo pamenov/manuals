@@ -1,0 +1,23 @@
+#HOMEBREW
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+#Run these two commands in your terminal to add Homebrew to your PATH:
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/pamenov/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+
+
+#PYTHON
+1) install comand line developers tools
+brew install python
+
+
+#NODEJS, REACT
+from website https://nodejs.org/
+node --version
+npm --version
+npm install --save react react-dom
+
+
+#GITHUB Settings
+ssh-keygen -b 4096 -t rsa

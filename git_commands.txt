@@ -1,0 +1,2 @@
+#setup remote origin
+git remote add origin https://github.com/pamenov/REPOSITORY.git
